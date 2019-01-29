@@ -179,4 +179,10 @@ and (max-width : 775px) {
   clear: both;
 }
 
+.codefund-wrapper .codefund-pixel {
+  visibility: hidden;
+  height: 1px;
+  width: 1px;
+}
+
 CSS

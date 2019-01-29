@@ -18,7 +18,6 @@ function loadCodeFund() {
   }
 
   const url = "https://codefund.app/properties/" + propertyId + "/funder.json";
-  /*const url = "http://localhost:3000/properties/" + propertyId + "/funder.json";*/
 
   _promise = new Promise(function(resolve, reject) {
     let xhr = new XMLHttpRequest();
