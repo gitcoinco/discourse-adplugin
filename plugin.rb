@@ -175,4 +175,8 @@ and (max-width : 775px) {
   text-align: center;
 }
 
+.codefund-wrapper.codefund-topic-above-suggested {
+  clear: both;
+}
+
 CSS
