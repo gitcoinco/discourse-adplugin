@@ -31,10 +31,9 @@ function loadCodeFund() {
     function handler() {
       if (this.readyState === this.DONE) {
         _loaded = true;
-
         if (this.status === 200) {
           resolve(this.response);
-        } else {
+        } else if (this.status !== 301) {
           reject(
             new Error(
               "getJSON: `" + url + "` failed with status: [" + this.status + "]"
